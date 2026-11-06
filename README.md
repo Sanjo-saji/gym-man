@@ -58,12 +58,3 @@ lib/
 test/                          streak_test, database_test
 ```
 
-## Notes
-
-- Fonts: `google_fonts` downloads Nunito at first run and caches it. To work fully
-  offline from the first launch, bundle the font files as assets.
-- Material 3 Expressive: written on stable Material 3 with the expressive feel
-  (28dp shapes, heavy numerals, tonal surfaces). Swap in Expressive components
-  later if your SDK ships them.
-- The optional adaptive icon was skipped; use `flutter_launcher_icons` when you
-  have artwork.
